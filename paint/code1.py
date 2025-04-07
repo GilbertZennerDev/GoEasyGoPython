@@ -1,14 +1,3 @@
-# random circles in Tkinter
-# a left mouse double click will idle action for 5 seconds and
-# save the canvas drawing to an image file
-# the Tkinter canvas can only be saved in postscript format 
-# run PIL imagedraw simultaneously which
-# draws in memory, but can be saved in many formats
-# modified vegaseat's code from (circles):
-# http://www.daniweb.com/software-development/python/code/216626
-# and (simultaneous PIL imagedraw):
-# http://www.daniweb.com/software-development/python/code/216929
-
 import random as rn
 import time
 from PIL import Image, ImageDraw
